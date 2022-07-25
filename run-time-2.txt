@@ -1,0 +1,9 @@
+var myString1 = "string1"
+var myString2 = "string2"
+var val=3
+
+
+prt(val*myString1)
+prt(myString1/val)
+prt(myString1 * myString2)
+

@@ -1,0 +1,42 @@
+var myInt = 5
+var myInt2
+var myChar = "a"
+var myString = "test"
+var myBool = False
+var myDouble = 0.25
+arr myArray = {1,2,3}
+arr myArray2
+
+prt (myInt + myDouble)
+prt (myString)
+prt (myArray)
+
+var myString2 = "test2"
+prt (myString + myString2)
+
+myString = "changed"
+prt (myString + myString2)
+
+myInt2 = 10
+prt(myInt + myInt2)
+
+myArray2 = {4,5,6}
+prt(myArray + myArray2)
+
+prt (((myInt + myInt2) * (myInt2 - myInt)) + 10)
+
+myBool = True
+if ((myInt2 ?= 10) & (myInt < myInt2)) ->
+    prt("condition true") 
+<-
+
+if ((myInt2 ?= 10) & (myInt > myInt2)) ->
+    prt("condition true") 
+<-
+els ->
+    prt("condition false")
+<-
+
+if((myInt2 !?= 10) | myBool) ->
+    prt("condition true")
+<-

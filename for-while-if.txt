@@ -1,0 +1,21 @@
+var a = 10
+var b = 4
+
+for(var i=0; i<10; i+=2) ->
+    prt("i= " + i) 
+<-
+
+whl (a > 0) ->
+    if (a < 5) ->
+        prt (a + " is smaller then 5") 
+    <-
+    els ->
+        if( a ?= 5) ->
+	    prt (a + " is equal to 5") 
+        <-
+	els ->
+	    prt (a + " is greater then 5") 
+	<- 
+    <-
+    a -= 1 
+<-
